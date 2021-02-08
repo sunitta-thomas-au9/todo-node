@@ -1,0 +1,10 @@
+POST:- http://localhost:9700/todo/addTask [to add a task]
+GET:- http://localhost:9700/todo/  [get all tasks]
+GET:- http://localhost:9700/todo/{id} [get single task]
+GET:- http://localhost:9700/todo/?status={completed/pending} [to get the tasks based on status]
+GET:- http://localhost:9700/todo/?start={date} [to get the tasks based on start date]
+GET:- http://localhost:9700/todo/?end={date} [toget the tasks based on end date]
+PUT:- http://localhost:9700/todo/edit [to update the task ]
+PATCH:- http://localhost:9700/todo/updateStatus [update the status to pending/completed]
+DELETE:- http://localhost:9700/todo/delete/{id} [delete a task]
+
